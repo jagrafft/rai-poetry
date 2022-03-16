@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rai-poetry"
+version = "0.1.0"
+description = "Poetry environment for rai-python-sdk"
+authors = ["jason a. grafft <jason.grafft@relational.ai>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.22.2"
+pandas = "^1.4.0"
+rai-sdk = "^0.6.3"
+ipython = "^8.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
